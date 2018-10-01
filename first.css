@@ -1,0 +1,79 @@
+body {
+	background: gray;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* Utilty Classes*/
+
+.imges {
+  max-width: 100%;
+}
+
+.initials {
+	background: url(22.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.derived {
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.derived h1 {
+	font-size: 6rem;
+	text-align: center;
+}
+
+/*  Product Section */
+
+.product {
+	width: 90%;
+	margin-top: .3rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.product__list__item {
+	float: left;
+	width: 32.5%;
+	margin-left: .5rem;
+}
+
+.form_codes {
+	text-align: center;
+}
+
+.form_codes .post_codes {
+	display: block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 3rem;
+	padding: 1rem;
+	border:none;
+	outline:none;
+}
+
+.form_codes button {
+	width: 20%;
+	text-align: center;
+	background-color: #00bab1;
+	color: white;
+	padding: .6rem;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 4rem;
+	border: none;
+	border-radius: .3rem;
+}
+
+.product__list__item:first-of-type {
+	margin-left: 0;
+}
